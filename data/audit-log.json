@@ -1,0 +1,2802 @@
+[
+  {
+    "audit_id": "AUDIT_RZ_TXN_10001",
+    "timestamp": "2026-08-24T19:39:11.309395",
+    "transaction_id": "RZ_TXN_10001",
+    "financial": {
+      "amount_at_risk": 499,
+      "expected_recovery": 379,
+      "actual_recovered": 379
+    },
+    "diagnosis": {
+      "failure_reason": "technical_failure",
+      "recoverability_score": 62
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "technical_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 379
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10002",
+    "timestamp": "2026-08-24T19:39:11.309435",
+    "transaction_id": "RZ_TXN_10002",
+    "financial": {
+      "amount_at_risk": 18900,
+      "expected_recovery": 10395,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 82
+    },
+    "decision": {
+      "decision": "approval_required",
+      "action": "controlled_recovery",
+      "reason": "high_value_case"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10003",
+    "timestamp": "2026-08-24T19:39:11.309441",
+    "transaction_id": "RZ_TXN_10003",
+    "financial": {
+      "amount_at_risk": 1499,
+      "expected_recovery": 929,
+      "actual_recovered": 929
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 80
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "smart_retry",
+      "reason": "insufficient_funds"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 929
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10004",
+    "timestamp": "2026-08-24T19:39:11.309446",
+    "transaction_id": "RZ_TXN_10004",
+    "financial": {
+      "amount_at_risk": 7499,
+      "expected_recovery": 5699,
+      "actual_recovered": 5699
+    },
+    "diagnosis": {
+      "failure_reason": "technical_failure",
+      "recoverability_score": 76
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "technical_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 5699
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10005",
+    "timestamp": "2026-08-24T19:39:11.309457",
+    "transaction_id": "RZ_TXN_10005",
+    "financial": {
+      "amount_at_risk": 499,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "checkout_abandoned",
+      "recoverability_score": 66
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10006",
+    "timestamp": "2026-08-24T19:39:11.309460",
+    "transaction_id": "RZ_TXN_10006",
+    "financial": {
+      "amount_at_risk": 2499,
+      "expected_recovery": 1549,
+      "actual_recovered": 1549
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 69
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "smart_retry",
+      "reason": "insufficient_funds"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 1549
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10007",
+    "timestamp": "2026-08-24T19:39:11.309464",
+    "transaction_id": "RZ_TXN_10007",
+    "financial": {
+      "amount_at_risk": 9999,
+      "expected_recovery": 4400,
+      "actual_recovered": 4400
+    },
+    "diagnosis": {
+      "failure_reason": "subscription_failed",
+      "recoverability_score": 91
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "customer_nudge",
+      "reason": "subscription_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 4400
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10008",
+    "timestamp": "2026-08-24T19:39:11.309467",
+    "transaction_id": "RZ_TXN_10008",
+    "financial": {
+      "amount_at_risk": 3999,
+      "expected_recovery": 2479,
+      "actual_recovered": 2479
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 85
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "smart_retry",
+      "reason": "insufficient_funds"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 2479
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10009",
+    "timestamp": "2026-08-24T19:39:11.309469",
+    "transaction_id": "RZ_TXN_10009",
+    "financial": {
+      "amount_at_risk": 799,
+      "expected_recovery": 495,
+      "actual_recovered": 495
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 94
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "smart_retry",
+      "reason": "insufficient_funds"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 495
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10010",
+    "timestamp": "2026-08-24T19:39:11.309472",
+    "transaction_id": "RZ_TXN_10010",
+    "financial": {
+      "amount_at_risk": 799,
+      "expected_recovery": 352,
+      "actual_recovered": 352
+    },
+    "diagnosis": {
+      "failure_reason": "subscription_failed",
+      "recoverability_score": 74
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "customer_nudge",
+      "reason": "subscription_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 352
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10011",
+    "timestamp": "2026-08-24T19:39:11.309477",
+    "transaction_id": "RZ_TXN_10011",
+    "financial": {
+      "amount_at_risk": 1499,
+      "expected_recovery": 1079,
+      "actual_recovered": 1079
+    },
+    "diagnosis": {
+      "failure_reason": "bank_timeout",
+      "recoverability_score": 92
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "temporary_bank_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 1079
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10012",
+    "timestamp": "2026-08-24T19:39:11.309479",
+    "transaction_id": "RZ_TXN_10012",
+    "financial": {
+      "amount_at_risk": 7499,
+      "expected_recovery": 5699,
+      "actual_recovered": 5699
+    },
+    "diagnosis": {
+      "failure_reason": "technical_failure",
+      "recoverability_score": 77
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "technical_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 5699
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10013",
+    "timestamp": "2026-08-24T19:39:11.309482",
+    "transaction_id": "RZ_TXN_10013",
+    "financial": {
+      "amount_at_risk": 12400,
+      "expected_recovery": 3968,
+      "actual_recovered": 3968
+    },
+    "diagnosis": {
+      "failure_reason": "invoice_overdue",
+      "recoverability_score": 80
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "receivables_chaser",
+      "reason": "invoice_overdue"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 3968
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10014",
+    "timestamp": "2026-08-24T19:39:11.309484",
+    "transaction_id": "RZ_TXN_10014",
+    "financial": {
+      "amount_at_risk": 499,
+      "expected_recovery": 190,
+      "actual_recovered": 190
+    },
+    "diagnosis": {
+      "failure_reason": "checkout_abandoned",
+      "recoverability_score": 65
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "customer_nudge",
+      "reason": "checkout_abandonment"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 190
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10015",
+    "timestamp": "2026-08-24T19:39:11.309490",
+    "transaction_id": "RZ_TXN_10015",
+    "financial": {
+      "amount_at_risk": 9999,
+      "expected_recovery": 6199,
+      "actual_recovered": 6199
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 86
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "smart_retry",
+      "reason": "insufficient_funds"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 6199
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10016",
+    "timestamp": "2026-08-24T19:39:11.309492",
+    "transaction_id": "RZ_TXN_10016",
+    "financial": {
+      "amount_at_risk": 12400,
+      "expected_recovery": 5456,
+      "actual_recovered": 5456
+    },
+    "diagnosis": {
+      "failure_reason": "subscription_failed",
+      "recoverability_score": 61
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "customer_nudge",
+      "reason": "subscription_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 5456
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10017",
+    "timestamp": "2026-08-24T19:39:11.309497",
+    "transaction_id": "RZ_TXN_10017",
+    "financial": {
+      "amount_at_risk": 7499,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "checkout_abandoned",
+      "recoverability_score": 82
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10018",
+    "timestamp": "2026-08-24T19:39:11.309500",
+    "transaction_id": "RZ_TXN_10018",
+    "financial": {
+      "amount_at_risk": 999,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 50
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10019",
+    "timestamp": "2026-08-24T19:39:11.309503",
+    "transaction_id": "RZ_TXN_10019",
+    "financial": {
+      "amount_at_risk": 12400,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 83
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10020",
+    "timestamp": "2026-08-24T19:39:11.309505",
+    "transaction_id": "RZ_TXN_10020",
+    "financial": {
+      "amount_at_risk": 4999,
+      "expected_recovery": 3599,
+      "actual_recovered": 3599
+    },
+    "diagnosis": {
+      "failure_reason": "bank_timeout",
+      "recoverability_score": 83
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "temporary_bank_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 3599
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10021",
+    "timestamp": "2026-08-24T19:39:11.309508",
+    "transaction_id": "RZ_TXN_10021",
+    "financial": {
+      "amount_at_risk": 12400,
+      "expected_recovery": 4712,
+      "actual_recovered": 4712
+    },
+    "diagnosis": {
+      "failure_reason": "checkout_abandoned",
+      "recoverability_score": 94
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "customer_nudge",
+      "reason": "checkout_abandonment"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 4712
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10022",
+    "timestamp": "2026-08-24T19:39:11.309510",
+    "transaction_id": "RZ_TXN_10022",
+    "financial": {
+      "amount_at_risk": 999,
+      "expected_recovery": 719,
+      "actual_recovered": 719
+    },
+    "diagnosis": {
+      "failure_reason": "bank_timeout",
+      "recoverability_score": 94
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "temporary_bank_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 719
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10023",
+    "timestamp": "2026-08-24T19:39:11.309512",
+    "transaction_id": "RZ_TXN_10023",
+    "financial": {
+      "amount_at_risk": 999,
+      "expected_recovery": 480,
+      "actual_recovered": 480
+    },
+    "diagnosis": {
+      "failure_reason": "card_declined",
+      "recoverability_score": 85
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "payment_method_update",
+      "reason": "card_declined"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 480
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10024",
+    "timestamp": "2026-08-24T19:39:11.309523",
+    "transaction_id": "RZ_TXN_10024",
+    "financial": {
+      "amount_at_risk": 9999,
+      "expected_recovery": 7599,
+      "actual_recovered": 7599
+    },
+    "diagnosis": {
+      "failure_reason": "technical_failure",
+      "recoverability_score": 71
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "technical_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 7599
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10025",
+    "timestamp": "2026-08-24T19:39:11.309526",
+    "transaction_id": "RZ_TXN_10025",
+    "financial": {
+      "amount_at_risk": 7499,
+      "expected_recovery": 2400,
+      "actual_recovered": 2400
+    },
+    "diagnosis": {
+      "failure_reason": "invoice_overdue",
+      "recoverability_score": 68
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "receivables_chaser",
+      "reason": "invoice_overdue"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 2400
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10026",
+    "timestamp": "2026-08-24T19:39:11.309529",
+    "transaction_id": "RZ_TXN_10026",
+    "financial": {
+      "amount_at_risk": 1999,
+      "expected_recovery": 880,
+      "actual_recovered": 880
+    },
+    "diagnosis": {
+      "failure_reason": "subscription_failed",
+      "recoverability_score": 60
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "customer_nudge",
+      "reason": "subscription_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 880
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10027",
+    "timestamp": "2026-08-24T19:39:11.309531",
+    "transaction_id": "RZ_TXN_10027",
+    "financial": {
+      "amount_at_risk": 18900,
+      "expected_recovery": 10395,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 93
+    },
+    "decision": {
+      "decision": "approval_required",
+      "action": "controlled_recovery",
+      "reason": "high_value_case"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10028",
+    "timestamp": "2026-08-24T19:39:11.309534",
+    "transaction_id": "RZ_TXN_10028",
+    "financial": {
+      "amount_at_risk": 12400,
+      "expected_recovery": 7688,
+      "actual_recovered": 7688
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 61
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "smart_retry",
+      "reason": "insufficient_funds"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 7688
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10029",
+    "timestamp": "2026-08-24T19:39:11.309537",
+    "transaction_id": "RZ_TXN_10029",
+    "financial": {
+      "amount_at_risk": 1499,
+      "expected_recovery": 1139,
+      "actual_recovered": 1139
+    },
+    "diagnosis": {
+      "failure_reason": "technical_failure",
+      "recoverability_score": 93
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "technical_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 1139
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10030",
+    "timestamp": "2026-08-24T19:39:11.309542",
+    "transaction_id": "RZ_TXN_10030",
+    "financial": {
+      "amount_at_risk": 12400,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "invoice_overdue",
+      "recoverability_score": 70
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10031",
+    "timestamp": "2026-08-24T19:39:11.309544",
+    "transaction_id": "RZ_TXN_10031",
+    "financial": {
+      "amount_at_risk": 799,
+      "expected_recovery": 575,
+      "actual_recovered": 575
+    },
+    "diagnosis": {
+      "failure_reason": "bank_timeout",
+      "recoverability_score": 85
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "temporary_bank_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 575
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10032",
+    "timestamp": "2026-08-24T19:39:11.309547",
+    "transaction_id": "RZ_TXN_10032",
+    "financial": {
+      "amount_at_risk": 499,
+      "expected_recovery": 379,
+      "actual_recovered": 379
+    },
+    "diagnosis": {
+      "failure_reason": "technical_failure",
+      "recoverability_score": 62
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "technical_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 379
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10033",
+    "timestamp": "2026-08-24T19:39:11.309552",
+    "transaction_id": "RZ_TXN_10033",
+    "financial": {
+      "amount_at_risk": 2499,
+      "expected_recovery": 1549,
+      "actual_recovered": 1549
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 62
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "smart_retry",
+      "reason": "insufficient_funds"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 1549
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10034",
+    "timestamp": "2026-08-24T19:39:11.309555",
+    "transaction_id": "RZ_TXN_10034",
+    "financial": {
+      "amount_at_risk": 18900,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "card_declined",
+      "recoverability_score": 60
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10035",
+    "timestamp": "2026-08-24T19:39:11.309557",
+    "transaction_id": "RZ_TXN_10035",
+    "financial": {
+      "amount_at_risk": 799,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "card_declined",
+      "recoverability_score": 67
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10036",
+    "timestamp": "2026-08-24T19:39:11.309560",
+    "transaction_id": "RZ_TXN_10036",
+    "financial": {
+      "amount_at_risk": 18900,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "card_declined",
+      "recoverability_score": 48
+    },
+    "decision": {
+      "decision": "escalate",
+      "action": "manual_review",
+      "reason": "high_value_low_confidence"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10037",
+    "timestamp": "2026-08-24T19:39:11.309566",
+    "transaction_id": "RZ_TXN_10037",
+    "financial": {
+      "amount_at_risk": 799,
+      "expected_recovery": 575,
+      "actual_recovered": 575
+    },
+    "diagnosis": {
+      "failure_reason": "bank_timeout",
+      "recoverability_score": 60
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "temporary_bank_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 575
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10038",
+    "timestamp": "2026-08-24T19:39:11.309568",
+    "transaction_id": "RZ_TXN_10038",
+    "financial": {
+      "amount_at_risk": 999,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 60
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10039",
+    "timestamp": "2026-08-24T19:39:11.309571",
+    "transaction_id": "RZ_TXN_10039",
+    "financial": {
+      "amount_at_risk": 7499,
+      "expected_recovery": 2850,
+      "actual_recovered": 2850
+    },
+    "diagnosis": {
+      "failure_reason": "checkout_abandoned",
+      "recoverability_score": 86
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "customer_nudge",
+      "reason": "checkout_abandonment"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 2850
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10040",
+    "timestamp": "2026-08-24T19:39:11.309573",
+    "transaction_id": "RZ_TXN_10040",
+    "financial": {
+      "amount_at_risk": 799,
+      "expected_recovery": 495,
+      "actual_recovered": 495
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 71
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "smart_retry",
+      "reason": "insufficient_funds"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 495
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10041",
+    "timestamp": "2026-08-24T19:39:11.309576",
+    "transaction_id": "RZ_TXN_10041",
+    "financial": {
+      "amount_at_risk": 3999,
+      "expected_recovery": 2479,
+      "actual_recovered": 2479
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 69
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "smart_retry",
+      "reason": "insufficient_funds"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 2479
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10042",
+    "timestamp": "2026-08-24T19:39:11.309581",
+    "transaction_id": "RZ_TXN_10042",
+    "financial": {
+      "amount_at_risk": 4999,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "bank_timeout",
+      "recoverability_score": 92
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10043",
+    "timestamp": "2026-08-24T19:39:11.309586",
+    "transaction_id": "RZ_TXN_10043",
+    "financial": {
+      "amount_at_risk": 999,
+      "expected_recovery": 759,
+      "actual_recovered": 759
+    },
+    "diagnosis": {
+      "failure_reason": "technical_failure",
+      "recoverability_score": 61
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "technical_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 759
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10044",
+    "timestamp": "2026-08-24T19:39:11.309591",
+    "transaction_id": "RZ_TXN_10044",
+    "financial": {
+      "amount_at_risk": 499,
+      "expected_recovery": 190,
+      "actual_recovered": 190
+    },
+    "diagnosis": {
+      "failure_reason": "checkout_abandoned",
+      "recoverability_score": 48
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "customer_nudge",
+      "reason": "checkout_abandonment"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 190
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10045",
+    "timestamp": "2026-08-24T19:39:11.309593",
+    "transaction_id": "RZ_TXN_10045",
+    "financial": {
+      "amount_at_risk": 7499,
+      "expected_recovery": 3600,
+      "actual_recovered": 3600
+    },
+    "diagnosis": {
+      "failure_reason": "card_declined",
+      "recoverability_score": 77
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "payment_method_update",
+      "reason": "card_declined"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 3600
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10046",
+    "timestamp": "2026-08-24T19:39:11.309596",
+    "transaction_id": "RZ_TXN_10046",
+    "financial": {
+      "amount_at_risk": 9999,
+      "expected_recovery": 6199,
+      "actual_recovered": 6199
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 70
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "smart_retry",
+      "reason": "insufficient_funds"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 6199
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10047",
+    "timestamp": "2026-08-24T19:39:11.309598",
+    "transaction_id": "RZ_TXN_10047",
+    "financial": {
+      "amount_at_risk": 1499,
+      "expected_recovery": 660,
+      "actual_recovered": 660
+    },
+    "diagnosis": {
+      "failure_reason": "subscription_failed",
+      "recoverability_score": 84
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "customer_nudge",
+      "reason": "subscription_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 660
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10048",
+    "timestamp": "2026-08-24T19:39:11.309601",
+    "transaction_id": "RZ_TXN_10048",
+    "financial": {
+      "amount_at_risk": 9999,
+      "expected_recovery": 7599,
+      "actual_recovered": 7599
+    },
+    "diagnosis": {
+      "failure_reason": "technical_failure",
+      "recoverability_score": 64
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "technical_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 7599
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10049",
+    "timestamp": "2026-08-24T19:39:11.309606",
+    "transaction_id": "RZ_TXN_10049",
+    "financial": {
+      "amount_at_risk": 1499,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "technical_failure",
+      "recoverability_score": 56
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10050",
+    "timestamp": "2026-08-24T19:39:11.309608",
+    "transaction_id": "RZ_TXN_10050",
+    "financial": {
+      "amount_at_risk": 799,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "bank_timeout",
+      "recoverability_score": 87
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10051",
+    "timestamp": "2026-08-24T19:39:11.309613",
+    "transaction_id": "RZ_TXN_10051",
+    "financial": {
+      "amount_at_risk": 1499,
+      "expected_recovery": 929,
+      "actual_recovered": 929
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 53
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "smart_retry",
+      "reason": "insufficient_funds"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 929
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10052",
+    "timestamp": "2026-08-24T19:39:11.309616",
+    "transaction_id": "RZ_TXN_10052",
+    "financial": {
+      "amount_at_risk": 1499,
+      "expected_recovery": 929,
+      "actual_recovered": 929
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 55
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "smart_retry",
+      "reason": "insufficient_funds"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 929
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10053",
+    "timestamp": "2026-08-24T19:39:11.309621",
+    "transaction_id": "RZ_TXN_10053",
+    "financial": {
+      "amount_at_risk": 1999,
+      "expected_recovery": 960,
+      "actual_recovered": 960
+    },
+    "diagnosis": {
+      "failure_reason": "card_declined",
+      "recoverability_score": 87
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "payment_method_update",
+      "reason": "card_declined"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 960
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10054",
+    "timestamp": "2026-08-24T19:39:11.309624",
+    "transaction_id": "RZ_TXN_10054",
+    "financial": {
+      "amount_at_risk": 799,
+      "expected_recovery": 352,
+      "actual_recovered": 352
+    },
+    "diagnosis": {
+      "failure_reason": "subscription_failed",
+      "recoverability_score": 52
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "customer_nudge",
+      "reason": "subscription_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 352
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10055",
+    "timestamp": "2026-08-24T19:39:11.309627",
+    "transaction_id": "RZ_TXN_10055",
+    "financial": {
+      "amount_at_risk": 1999,
+      "expected_recovery": 960,
+      "actual_recovered": 960
+    },
+    "diagnosis": {
+      "failure_reason": "card_declined",
+      "recoverability_score": 90
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "payment_method_update",
+      "reason": "card_declined"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 960
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10056",
+    "timestamp": "2026-08-24T19:39:11.309632",
+    "transaction_id": "RZ_TXN_10056",
+    "financial": {
+      "amount_at_risk": 1999,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "technical_failure",
+      "recoverability_score": 64
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10057",
+    "timestamp": "2026-08-24T19:39:11.309634",
+    "transaction_id": "RZ_TXN_10057",
+    "financial": {
+      "amount_at_risk": 1999,
+      "expected_recovery": 1519,
+      "actual_recovered": 1519
+    },
+    "diagnosis": {
+      "failure_reason": "technical_failure",
+      "recoverability_score": 69
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "technical_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 1519
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10058",
+    "timestamp": "2026-08-24T19:39:11.309637",
+    "transaction_id": "RZ_TXN_10058",
+    "financial": {
+      "amount_at_risk": 999,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "invoice_overdue",
+      "recoverability_score": 72
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10059",
+    "timestamp": "2026-08-24T19:39:11.309640",
+    "transaction_id": "RZ_TXN_10059",
+    "financial": {
+      "amount_at_risk": 18900,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 68
+    },
+    "decision": {
+      "decision": "escalate",
+      "action": "manual_review",
+      "reason": "high_value_low_confidence"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10060",
+    "timestamp": "2026-08-24T19:39:11.309644",
+    "transaction_id": "RZ_TXN_10060",
+    "financial": {
+      "amount_at_risk": 999,
+      "expected_recovery": 619,
+      "actual_recovered": 619
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 68
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "smart_retry",
+      "reason": "insufficient_funds"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 619
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10061",
+    "timestamp": "2026-08-24T19:39:11.309647",
+    "transaction_id": "RZ_TXN_10061",
+    "financial": {
+      "amount_at_risk": 12400,
+      "expected_recovery": 8928,
+      "actual_recovered": 8928
+    },
+    "diagnosis": {
+      "failure_reason": "bank_timeout",
+      "recoverability_score": 70
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "temporary_bank_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 8928
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10062",
+    "timestamp": "2026-08-24T19:39:11.309652",
+    "transaction_id": "RZ_TXN_10062",
+    "financial": {
+      "amount_at_risk": 9999,
+      "expected_recovery": 4400,
+      "actual_recovered": 4400
+    },
+    "diagnosis": {
+      "failure_reason": "subscription_failed",
+      "recoverability_score": 55
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "customer_nudge",
+      "reason": "subscription_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 4400
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10063",
+    "timestamp": "2026-08-24T19:39:11.309656",
+    "transaction_id": "RZ_TXN_10063",
+    "financial": {
+      "amount_at_risk": 999,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "card_declined",
+      "recoverability_score": 87
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10064",
+    "timestamp": "2026-08-24T19:39:11.309659",
+    "transaction_id": "RZ_TXN_10064",
+    "financial": {
+      "amount_at_risk": 18900,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 47
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10065",
+    "timestamp": "2026-08-24T19:39:11.309662",
+    "transaction_id": "RZ_TXN_10065",
+    "financial": {
+      "amount_at_risk": 4999,
+      "expected_recovery": 3099,
+      "actual_recovered": 3099
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 95
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "smart_retry",
+      "reason": "insufficient_funds"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 3099
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10066",
+    "timestamp": "2026-08-24T19:39:11.309665",
+    "transaction_id": "RZ_TXN_10066",
+    "financial": {
+      "amount_at_risk": 1499,
+      "expected_recovery": 929,
+      "actual_recovered": 929
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 62
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "smart_retry",
+      "reason": "insufficient_funds"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 929
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10067",
+    "timestamp": "2026-08-24T19:39:11.309667",
+    "transaction_id": "RZ_TXN_10067",
+    "financial": {
+      "amount_at_risk": 2499,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "checkout_abandoned",
+      "recoverability_score": 88
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10068",
+    "timestamp": "2026-08-24T19:39:11.309672",
+    "transaction_id": "RZ_TXN_10068",
+    "financial": {
+      "amount_at_risk": 799,
+      "expected_recovery": 352,
+      "actual_recovered": 352
+    },
+    "diagnosis": {
+      "failure_reason": "subscription_failed",
+      "recoverability_score": 82
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "customer_nudge",
+      "reason": "subscription_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 352
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10069",
+    "timestamp": "2026-08-24T19:39:11.309677",
+    "transaction_id": "RZ_TXN_10069",
+    "financial": {
+      "amount_at_risk": 3999,
+      "expected_recovery": 2479,
+      "actual_recovered": 2479
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 72
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "smart_retry",
+      "reason": "insufficient_funds"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 2479
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10070",
+    "timestamp": "2026-08-24T19:39:11.309680",
+    "transaction_id": "RZ_TXN_10070",
+    "financial": {
+      "amount_at_risk": 9999,
+      "expected_recovery": 7199,
+      "actual_recovered": 7199
+    },
+    "diagnosis": {
+      "failure_reason": "bank_timeout",
+      "recoverability_score": 50
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "temporary_bank_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 7199
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10071",
+    "timestamp": "2026-08-24T19:39:11.309682",
+    "transaction_id": "RZ_TXN_10071",
+    "financial": {
+      "amount_at_risk": 7499,
+      "expected_recovery": 3600,
+      "actual_recovered": 3600
+    },
+    "diagnosis": {
+      "failure_reason": "card_declined",
+      "recoverability_score": 68
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "payment_method_update",
+      "reason": "card_declined"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 3600
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10072",
+    "timestamp": "2026-08-24T19:39:11.309685",
+    "transaction_id": "RZ_TXN_10072",
+    "financial": {
+      "amount_at_risk": 2499,
+      "expected_recovery": 800,
+      "actual_recovered": 800
+    },
+    "diagnosis": {
+      "failure_reason": "invoice_overdue",
+      "recoverability_score": 79
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "receivables_chaser",
+      "reason": "invoice_overdue"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 800
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10073",
+    "timestamp": "2026-08-24T19:39:11.309687",
+    "transaction_id": "RZ_TXN_10073",
+    "financial": {
+      "amount_at_risk": 7499,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "subscription_failed",
+      "recoverability_score": 65
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10074",
+    "timestamp": "2026-08-24T19:39:11.309690",
+    "transaction_id": "RZ_TXN_10074",
+    "financial": {
+      "amount_at_risk": 999,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "bank_timeout",
+      "recoverability_score": 90
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10075",
+    "timestamp": "2026-08-24T19:39:11.309695",
+    "transaction_id": "RZ_TXN_10075",
+    "financial": {
+      "amount_at_risk": 999,
+      "expected_recovery": 380,
+      "actual_recovered": 380
+    },
+    "diagnosis": {
+      "failure_reason": "checkout_abandoned",
+      "recoverability_score": 70
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "customer_nudge",
+      "reason": "checkout_abandonment"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 380
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10076",
+    "timestamp": "2026-08-24T19:39:11.309697",
+    "transaction_id": "RZ_TXN_10076",
+    "financial": {
+      "amount_at_risk": 1999,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 95
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10077",
+    "timestamp": "2026-08-24T19:39:11.309700",
+    "transaction_id": "RZ_TXN_10077",
+    "financial": {
+      "amount_at_risk": 4999,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "technical_failure",
+      "recoverability_score": 91
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10078",
+    "timestamp": "2026-08-24T19:39:11.309705",
+    "transaction_id": "RZ_TXN_10078",
+    "financial": {
+      "amount_at_risk": 18900,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "card_declined",
+      "recoverability_score": 63
+    },
+    "decision": {
+      "decision": "escalate",
+      "action": "manual_review",
+      "reason": "high_value_low_confidence"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10079",
+    "timestamp": "2026-08-24T19:39:11.309918",
+    "transaction_id": "RZ_TXN_10079",
+    "financial": {
+      "amount_at_risk": 2499,
+      "expected_recovery": 1899,
+      "actual_recovered": 1899
+    },
+    "diagnosis": {
+      "failure_reason": "technical_failure",
+      "recoverability_score": 91
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "technical_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 1899
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10080",
+    "timestamp": "2026-08-24T19:39:11.309922",
+    "transaction_id": "RZ_TXN_10080",
+    "financial": {
+      "amount_at_risk": 999,
+      "expected_recovery": 380,
+      "actual_recovered": 380
+    },
+    "diagnosis": {
+      "failure_reason": "checkout_abandoned",
+      "recoverability_score": 60
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "customer_nudge",
+      "reason": "checkout_abandonment"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 380
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10081",
+    "timestamp": "2026-08-24T19:39:11.309931",
+    "transaction_id": "RZ_TXN_10081",
+    "financial": {
+      "amount_at_risk": 799,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "subscription_failed",
+      "recoverability_score": 85
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10082",
+    "timestamp": "2026-08-24T19:39:11.309934",
+    "transaction_id": "RZ_TXN_10082",
+    "financial": {
+      "amount_at_risk": 3999,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "technical_failure",
+      "recoverability_score": 63
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10083",
+    "timestamp": "2026-08-24T19:39:11.309940",
+    "transaction_id": "RZ_TXN_10083",
+    "financial": {
+      "amount_at_risk": 799,
+      "expected_recovery": 607,
+      "actual_recovered": 607
+    },
+    "diagnosis": {
+      "failure_reason": "technical_failure",
+      "recoverability_score": 59
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "technical_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 607
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10084",
+    "timestamp": "2026-08-24T19:39:11.309943",
+    "transaction_id": "RZ_TXN_10084",
+    "financial": {
+      "amount_at_risk": 1499,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 53
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10085",
+    "timestamp": "2026-08-24T19:39:11.309947",
+    "transaction_id": "RZ_TXN_10085",
+    "financial": {
+      "amount_at_risk": 7499,
+      "expected_recovery": 3600,
+      "actual_recovered": 3600
+    },
+    "diagnosis": {
+      "failure_reason": "card_declined",
+      "recoverability_score": 93
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "payment_method_update",
+      "reason": "card_declined"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 3600
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10086",
+    "timestamp": "2026-08-24T19:39:11.309951",
+    "transaction_id": "RZ_TXN_10086",
+    "financial": {
+      "amount_at_risk": 7499,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "checkout_abandoned",
+      "recoverability_score": 55
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10087",
+    "timestamp": "2026-08-24T19:39:11.309968",
+    "transaction_id": "RZ_TXN_10087",
+    "financial": {
+      "amount_at_risk": 1499,
+      "expected_recovery": 1079,
+      "actual_recovered": 1079
+    },
+    "diagnosis": {
+      "failure_reason": "bank_timeout",
+      "recoverability_score": 97
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "temporary_bank_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 1079
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10088",
+    "timestamp": "2026-08-24T19:39:11.309970",
+    "transaction_id": "RZ_TXN_10088",
+    "financial": {
+      "amount_at_risk": 1999,
+      "expected_recovery": 1519,
+      "actual_recovered": 1519
+    },
+    "diagnosis": {
+      "failure_reason": "technical_failure",
+      "recoverability_score": 93
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "technical_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 1519
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10089",
+    "timestamp": "2026-08-24T19:39:11.309973",
+    "transaction_id": "RZ_TXN_10089",
+    "financial": {
+      "amount_at_risk": 2499,
+      "expected_recovery": 1799,
+      "actual_recovered": 1799
+    },
+    "diagnosis": {
+      "failure_reason": "bank_timeout",
+      "recoverability_score": 56
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "temporary_bank_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 1799
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10090",
+    "timestamp": "2026-08-24T19:39:11.309976",
+    "transaction_id": "RZ_TXN_10090",
+    "financial": {
+      "amount_at_risk": 999,
+      "expected_recovery": 719,
+      "actual_recovered": 719
+    },
+    "diagnosis": {
+      "failure_reason": "bank_timeout",
+      "recoverability_score": 74
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "temporary_bank_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 719
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10091",
+    "timestamp": "2026-08-24T19:39:11.309978",
+    "transaction_id": "RZ_TXN_10091",
+    "financial": {
+      "amount_at_risk": 3999,
+      "expected_recovery": 1920,
+      "actual_recovered": 1920
+    },
+    "diagnosis": {
+      "failure_reason": "card_declined",
+      "recoverability_score": 71
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "payment_method_update",
+      "reason": "card_declined"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 1920
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10092",
+    "timestamp": "2026-08-24T19:39:11.309980",
+    "transaction_id": "RZ_TXN_10092",
+    "financial": {
+      "amount_at_risk": 18900,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "checkout_abandoned",
+      "recoverability_score": 75
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10093",
+    "timestamp": "2026-08-24T19:39:11.309983",
+    "transaction_id": "RZ_TXN_10093",
+    "financial": {
+      "amount_at_risk": 3999,
+      "expected_recovery": 2879,
+      "actual_recovered": 2879
+    },
+    "diagnosis": {
+      "failure_reason": "bank_timeout",
+      "recoverability_score": 79
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "retry",
+      "reason": "temporary_bank_failure"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 2879
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10094",
+    "timestamp": "2026-08-24T19:39:11.309990",
+    "transaction_id": "RZ_TXN_10094",
+    "financial": {
+      "amount_at_risk": 499,
+      "expected_recovery": 240,
+      "actual_recovered": 240
+    },
+    "diagnosis": {
+      "failure_reason": "card_declined",
+      "recoverability_score": 87
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "payment_method_update",
+      "reason": "card_declined"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 240
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10095",
+    "timestamp": "2026-08-24T19:39:11.309992",
+    "transaction_id": "RZ_TXN_10095",
+    "financial": {
+      "amount_at_risk": 4999,
+      "expected_recovery": 3099,
+      "actual_recovered": 3099
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 70
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "smart_retry",
+      "reason": "insufficient_funds"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 3099
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10096",
+    "timestamp": "2026-08-24T19:39:11.309997",
+    "transaction_id": "RZ_TXN_10096",
+    "financial": {
+      "amount_at_risk": 799,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "technical_failure",
+      "recoverability_score": 56
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10097",
+    "timestamp": "2026-08-24T19:39:11.310000",
+    "transaction_id": "RZ_TXN_10097",
+    "financial": {
+      "amount_at_risk": 3999,
+      "expected_recovery": 2479,
+      "actual_recovered": 2479
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 74
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "smart_retry",
+      "reason": "insufficient_funds"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 2479
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10098",
+    "timestamp": "2026-08-24T19:39:11.310002",
+    "transaction_id": "RZ_TXN_10098",
+    "financial": {
+      "amount_at_risk": 3999,
+      "expected_recovery": 0,
+      "actual_recovered": 0
+    },
+    "diagnosis": {
+      "failure_reason": "checkout_abandoned",
+      "recoverability_score": 61
+    },
+    "decision": {
+      "decision": "stop",
+      "action": "no_more_retries",
+      "reason": "retry_limit_reached"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": false,
+      "execution_status": "blocked"
+    },
+    "execution": {
+      "mode": "not_executed",
+      "executed_amount": 0
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10099",
+    "timestamp": "2026-08-24T19:39:11.310005",
+    "transaction_id": "RZ_TXN_10099",
+    "financial": {
+      "amount_at_risk": 7499,
+      "expected_recovery": 4649,
+      "actual_recovered": 4649
+    },
+    "diagnosis": {
+      "failure_reason": "insufficient_funds",
+      "recoverability_score": 59
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "smart_retry",
+      "reason": "insufficient_funds"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 4649
+    }
+  },
+  {
+    "audit_id": "AUDIT_RZ_TXN_10100",
+    "timestamp": "2026-08-24T19:39:11.310009",
+    "transaction_id": "RZ_TXN_10100",
+    "financial": {
+      "amount_at_risk": 499,
+      "expected_recovery": 160,
+      "actual_recovered": 160
+    },
+    "diagnosis": {
+      "failure_reason": "invoice_overdue",
+      "recoverability_score": 49
+    },
+    "decision": {
+      "decision": "recover",
+      "action": "receivables_chaser",
+      "reason": "invoice_overdue"
+    },
+    "policy": {
+      "bounded": true,
+      "allowlisted_action": true,
+      "execution_status": "success"
+    },
+    "execution": {
+      "mode": "synthetic_test_mode",
+      "executed_amount": 160
+    }
+  }
+]
