@@ -10,7 +10,7 @@
     "decision_reason": "technical_failure",
     "expected_recovery": 379,
     "simulated_recovered_amount": 379,
-    "timestamp": "2026-08-23T09:38:52.616525"
+    "timestamp": "2026-08-25T16:50:50.705782"
   },
   {
     "transaction_id": "RZ_TXN_10002",
@@ -23,7 +23,7 @@
     "decision_reason": "high_value_case",
     "expected_recovery": 10395,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616573"
+    "timestamp": "2026-08-25T16:50:50.705827"
   },
   {
     "transaction_id": "RZ_TXN_10003",
@@ -36,7 +36,7 @@
     "decision_reason": "insufficient_funds",
     "expected_recovery": 929,
     "simulated_recovered_amount": 929,
-    "timestamp": "2026-08-23T09:38:52.616580"
+    "timestamp": "2026-08-25T16:50:50.705836"
   },
   {
     "transaction_id": "RZ_TXN_10004",
@@ -49,7 +49,7 @@
     "decision_reason": "technical_failure",
     "expected_recovery": 5699,
     "simulated_recovered_amount": 5699,
-    "timestamp": "2026-08-23T09:38:52.616586"
+    "timestamp": "2026-08-25T16:50:50.705842"
   },
   {
     "transaction_id": "RZ_TXN_10005",
@@ -62,7 +62,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616591"
+    "timestamp": "2026-08-25T16:50:50.705846"
   },
   {
     "transaction_id": "RZ_TXN_10006",
@@ -75,7 +75,7 @@
     "decision_reason": "insufficient_funds",
     "expected_recovery": 1549,
     "simulated_recovered_amount": 1549,
-    "timestamp": "2026-08-23T09:38:52.616599"
+    "timestamp": "2026-08-25T16:50:50.705852"
   },
   {
     "transaction_id": "RZ_TXN_10007",
@@ -88,7 +88,7 @@
     "decision_reason": "subscription_failure",
     "expected_recovery": 4400,
     "simulated_recovered_amount": 4400,
-    "timestamp": "2026-08-23T09:38:52.616604"
+    "timestamp": "2026-08-25T16:50:50.705857"
   },
   {
     "transaction_id": "RZ_TXN_10008",
@@ -101,7 +101,7 @@
     "decision_reason": "insufficient_funds",
     "expected_recovery": 2479,
     "simulated_recovered_amount": 2479,
-    "timestamp": "2026-08-23T09:38:52.616608"
+    "timestamp": "2026-08-25T16:50:50.705865"
   },
   {
     "transaction_id": "RZ_TXN_10009",
@@ -114,7 +114,7 @@
     "decision_reason": "insufficient_funds",
     "expected_recovery": 495,
     "simulated_recovered_amount": 495,
-    "timestamp": "2026-08-23T09:38:52.616611"
+    "timestamp": "2026-08-25T16:50:50.705868"
   },
   {
     "transaction_id": "RZ_TXN_10010",
@@ -127,7 +127,7 @@
     "decision_reason": "subscription_failure",
     "expected_recovery": 352,
     "simulated_recovered_amount": 352,
-    "timestamp": "2026-08-23T09:38:52.616620"
+    "timestamp": "2026-08-25T16:50:50.705875"
   },
   {
     "transaction_id": "RZ_TXN_10011",
@@ -140,7 +140,7 @@
     "decision_reason": "temporary_bank_failure",
     "expected_recovery": 1079,
     "simulated_recovered_amount": 1079,
-    "timestamp": "2026-08-23T09:38:52.616629"
+    "timestamp": "2026-08-25T16:50:50.705879"
   },
   {
     "transaction_id": "RZ_TXN_10012",
@@ -153,7 +153,7 @@
     "decision_reason": "technical_failure",
     "expected_recovery": 5699,
     "simulated_recovered_amount": 5699,
-    "timestamp": "2026-08-23T09:38:52.616632"
+    "timestamp": "2026-08-25T16:50:50.705884"
   },
   {
     "transaction_id": "RZ_TXN_10013",
@@ -166,7 +166,7 @@
     "decision_reason": "invoice_overdue",
     "expected_recovery": 3968,
     "simulated_recovered_amount": 3968,
-    "timestamp": "2026-08-23T09:38:52.616636"
+    "timestamp": "2026-08-25T16:50:50.705888"
   },
   {
     "transaction_id": "RZ_TXN_10014",
@@ -179,7 +179,7 @@
     "decision_reason": "checkout_abandonment",
     "expected_recovery": 190,
     "simulated_recovered_amount": 190,
-    "timestamp": "2026-08-23T09:38:52.616641"
+    "timestamp": "2026-08-25T16:50:50.705893"
   },
   {
     "transaction_id": "RZ_TXN_10015",
@@ -192,7 +192,7 @@
     "decision_reason": "insufficient_funds",
     "expected_recovery": 6199,
     "simulated_recovered_amount": 6199,
-    "timestamp": "2026-08-23T09:38:52.616645"
+    "timestamp": "2026-08-25T16:50:50.705898"
   },
   {
     "transaction_id": "RZ_TXN_10016",
@@ -205,7 +205,7 @@
     "decision_reason": "subscription_failure",
     "expected_recovery": 5456,
     "simulated_recovered_amount": 5456,
-    "timestamp": "2026-08-23T09:38:52.616649"
+    "timestamp": "2026-08-25T16:50:50.705902"
   },
   {
     "transaction_id": "RZ_TXN_10017",
@@ -218,7 +218,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616652"
+    "timestamp": "2026-08-25T16:50:50.705905"
   },
   {
     "transaction_id": "RZ_TXN_10018",
@@ -231,7 +231,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616656"
+    "timestamp": "2026-08-25T16:50:50.705909"
   },
   {
     "transaction_id": "RZ_TXN_10019",
@@ -244,7 +244,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616659"
+    "timestamp": "2026-08-25T16:50:50.705913"
   },
   {
     "transaction_id": "RZ_TXN_10020",
@@ -257,7 +257,7 @@
     "decision_reason": "temporary_bank_failure",
     "expected_recovery": 3599,
     "simulated_recovered_amount": 3599,
-    "timestamp": "2026-08-23T09:38:52.616665"
+    "timestamp": "2026-08-25T16:50:50.705919"
   },
   {
     "transaction_id": "RZ_TXN_10021",
@@ -270,7 +270,7 @@
     "decision_reason": "checkout_abandonment",
     "expected_recovery": 4712,
     "simulated_recovered_amount": 4712,
-    "timestamp": "2026-08-23T09:38:52.616669"
+    "timestamp": "2026-08-25T16:50:50.705924"
   },
   {
     "transaction_id": "RZ_TXN_10022",
@@ -283,7 +283,7 @@
     "decision_reason": "temporary_bank_failure",
     "expected_recovery": 719,
     "simulated_recovered_amount": 719,
-    "timestamp": "2026-08-23T09:38:52.616673"
+    "timestamp": "2026-08-25T16:50:50.705928"
   },
   {
     "transaction_id": "RZ_TXN_10023",
@@ -296,7 +296,7 @@
     "decision_reason": "card_declined",
     "expected_recovery": 480,
     "simulated_recovered_amount": 480,
-    "timestamp": "2026-08-23T09:38:52.616677"
+    "timestamp": "2026-08-25T16:50:50.705932"
   },
   {
     "transaction_id": "RZ_TXN_10024",
@@ -309,7 +309,7 @@
     "decision_reason": "technical_failure",
     "expected_recovery": 7599,
     "simulated_recovered_amount": 7599,
-    "timestamp": "2026-08-23T09:38:52.616680"
+    "timestamp": "2026-08-25T16:50:50.705981"
   },
   {
     "transaction_id": "RZ_TXN_10025",
@@ -322,7 +322,7 @@
     "decision_reason": "invoice_overdue",
     "expected_recovery": 2400,
     "simulated_recovered_amount": 2400,
-    "timestamp": "2026-08-23T09:38:52.616684"
+    "timestamp": "2026-08-25T16:50:50.705993"
   },
   {
     "transaction_id": "RZ_TXN_10026",
@@ -335,7 +335,7 @@
     "decision_reason": "subscription_failure",
     "expected_recovery": 880,
     "simulated_recovered_amount": 880,
-    "timestamp": "2026-08-23T09:38:52.616688"
+    "timestamp": "2026-08-25T16:50:50.706000"
   },
   {
     "transaction_id": "RZ_TXN_10027",
@@ -348,7 +348,7 @@
     "decision_reason": "high_value_case",
     "expected_recovery": 10395,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616692"
+    "timestamp": "2026-08-25T16:50:50.706004"
   },
   {
     "transaction_id": "RZ_TXN_10028",
@@ -361,7 +361,7 @@
     "decision_reason": "insufficient_funds",
     "expected_recovery": 7688,
     "simulated_recovered_amount": 7688,
-    "timestamp": "2026-08-23T09:38:52.616696"
+    "timestamp": "2026-08-25T16:50:50.706009"
   },
   {
     "transaction_id": "RZ_TXN_10029",
@@ -374,7 +374,7 @@
     "decision_reason": "technical_failure",
     "expected_recovery": 1139,
     "simulated_recovered_amount": 1139,
-    "timestamp": "2026-08-23T09:38:52.616700"
+    "timestamp": "2026-08-25T16:50:50.706013"
   },
   {
     "transaction_id": "RZ_TXN_10030",
@@ -387,7 +387,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616706"
+    "timestamp": "2026-08-25T16:50:50.706019"
   },
   {
     "transaction_id": "RZ_TXN_10031",
@@ -400,7 +400,7 @@
     "decision_reason": "temporary_bank_failure",
     "expected_recovery": 575,
     "simulated_recovered_amount": 575,
-    "timestamp": "2026-08-23T09:38:52.616709"
+    "timestamp": "2026-08-25T16:50:50.706024"
   },
   {
     "transaction_id": "RZ_TXN_10032",
@@ -413,7 +413,7 @@
     "decision_reason": "technical_failure",
     "expected_recovery": 379,
     "simulated_recovered_amount": 379,
-    "timestamp": "2026-08-23T09:38:52.616713"
+    "timestamp": "2026-08-25T16:50:50.706027"
   },
   {
     "transaction_id": "RZ_TXN_10033",
@@ -426,7 +426,7 @@
     "decision_reason": "insufficient_funds",
     "expected_recovery": 1549,
     "simulated_recovered_amount": 1549,
-    "timestamp": "2026-08-23T09:38:52.616717"
+    "timestamp": "2026-08-25T16:50:50.706031"
   },
   {
     "transaction_id": "RZ_TXN_10034",
@@ -439,7 +439,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616720"
+    "timestamp": "2026-08-25T16:50:50.706035"
   },
   {
     "transaction_id": "RZ_TXN_10035",
@@ -452,7 +452,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616723"
+    "timestamp": "2026-08-25T16:50:50.706038"
   },
   {
     "transaction_id": "RZ_TXN_10036",
@@ -465,7 +465,7 @@
     "decision_reason": "high_value_low_confidence",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616727"
+    "timestamp": "2026-08-25T16:50:50.706042"
   },
   {
     "transaction_id": "RZ_TXN_10037",
@@ -478,7 +478,7 @@
     "decision_reason": "temporary_bank_failure",
     "expected_recovery": 575,
     "simulated_recovered_amount": 575,
-    "timestamp": "2026-08-23T09:38:52.616730"
+    "timestamp": "2026-08-25T16:50:50.706046"
   },
   {
     "transaction_id": "RZ_TXN_10038",
@@ -491,7 +491,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616733"
+    "timestamp": "2026-08-25T16:50:50.706049"
   },
   {
     "transaction_id": "RZ_TXN_10039",
@@ -504,7 +504,7 @@
     "decision_reason": "checkout_abandonment",
     "expected_recovery": 2850,
     "simulated_recovered_amount": 2850,
-    "timestamp": "2026-08-23T09:38:52.616737"
+    "timestamp": "2026-08-25T16:50:50.706053"
   },
   {
     "transaction_id": "RZ_TXN_10040",
@@ -517,7 +517,7 @@
     "decision_reason": "insufficient_funds",
     "expected_recovery": 495,
     "simulated_recovered_amount": 495,
-    "timestamp": "2026-08-23T09:38:52.616743"
+    "timestamp": "2026-08-25T16:50:50.706059"
   },
   {
     "transaction_id": "RZ_TXN_10041",
@@ -530,7 +530,7 @@
     "decision_reason": "insufficient_funds",
     "expected_recovery": 2479,
     "simulated_recovered_amount": 2479,
-    "timestamp": "2026-08-23T09:38:52.616747"
+    "timestamp": "2026-08-25T16:50:50.706064"
   },
   {
     "transaction_id": "RZ_TXN_10042",
@@ -543,7 +543,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616750"
+    "timestamp": "2026-08-25T16:50:50.706068"
   },
   {
     "transaction_id": "RZ_TXN_10043",
@@ -556,7 +556,7 @@
     "decision_reason": "technical_failure",
     "expected_recovery": 759,
     "simulated_recovered_amount": 759,
-    "timestamp": "2026-08-23T09:38:52.616754"
+    "timestamp": "2026-08-25T16:50:50.706072"
   },
   {
     "transaction_id": "RZ_TXN_10044",
@@ -569,7 +569,7 @@
     "decision_reason": "checkout_abandonment",
     "expected_recovery": 190,
     "simulated_recovered_amount": 190,
-    "timestamp": "2026-08-23T09:38:52.616758"
+    "timestamp": "2026-08-25T16:50:50.706076"
   },
   {
     "transaction_id": "RZ_TXN_10045",
@@ -582,7 +582,7 @@
     "decision_reason": "card_declined",
     "expected_recovery": 3600,
     "simulated_recovered_amount": 3600,
-    "timestamp": "2026-08-23T09:38:52.616762"
+    "timestamp": "2026-08-25T16:50:50.706080"
   },
   {
     "transaction_id": "RZ_TXN_10046",
@@ -595,7 +595,7 @@
     "decision_reason": "insufficient_funds",
     "expected_recovery": 6199,
     "simulated_recovered_amount": 6199,
-    "timestamp": "2026-08-23T09:38:52.616765"
+    "timestamp": "2026-08-25T16:50:50.706084"
   },
   {
     "transaction_id": "RZ_TXN_10047",
@@ -608,7 +608,7 @@
     "decision_reason": "subscription_failure",
     "expected_recovery": 660,
     "simulated_recovered_amount": 660,
-    "timestamp": "2026-08-23T09:38:52.616769"
+    "timestamp": "2026-08-25T16:50:50.706088"
   },
   {
     "transaction_id": "RZ_TXN_10048",
@@ -621,7 +621,7 @@
     "decision_reason": "technical_failure",
     "expected_recovery": 7599,
     "simulated_recovered_amount": 7599,
-    "timestamp": "2026-08-23T09:38:52.616772"
+    "timestamp": "2026-08-25T16:50:50.706092"
   },
   {
     "transaction_id": "RZ_TXN_10049",
@@ -634,7 +634,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616776"
+    "timestamp": "2026-08-25T16:50:50.706095"
   },
   {
     "transaction_id": "RZ_TXN_10050",
@@ -647,7 +647,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616781"
+    "timestamp": "2026-08-25T16:50:50.706101"
   },
   {
     "transaction_id": "RZ_TXN_10051",
@@ -660,7 +660,7 @@
     "decision_reason": "insufficient_funds",
     "expected_recovery": 929,
     "simulated_recovered_amount": 929,
-    "timestamp": "2026-08-23T09:38:52.616785"
+    "timestamp": "2026-08-25T16:50:50.706104"
   },
   {
     "transaction_id": "RZ_TXN_10052",
@@ -673,7 +673,7 @@
     "decision_reason": "insufficient_funds",
     "expected_recovery": 929,
     "simulated_recovered_amount": 929,
-    "timestamp": "2026-08-23T09:38:52.616788"
+    "timestamp": "2026-08-25T16:50:50.706108"
   },
   {
     "transaction_id": "RZ_TXN_10053",
@@ -686,7 +686,7 @@
     "decision_reason": "card_declined",
     "expected_recovery": 960,
     "simulated_recovered_amount": 960,
-    "timestamp": "2026-08-23T09:38:52.616792"
+    "timestamp": "2026-08-25T16:50:50.706112"
   },
   {
     "transaction_id": "RZ_TXN_10054",
@@ -699,7 +699,7 @@
     "decision_reason": "subscription_failure",
     "expected_recovery": 352,
     "simulated_recovered_amount": 352,
-    "timestamp": "2026-08-23T09:38:52.616796"
+    "timestamp": "2026-08-25T16:50:50.706116"
   },
   {
     "transaction_id": "RZ_TXN_10055",
@@ -712,7 +712,7 @@
     "decision_reason": "card_declined",
     "expected_recovery": 960,
     "simulated_recovered_amount": 960,
-    "timestamp": "2026-08-23T09:38:52.616800"
+    "timestamp": "2026-08-25T16:50:50.706120"
   },
   {
     "transaction_id": "RZ_TXN_10056",
@@ -725,7 +725,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616803"
+    "timestamp": "2026-08-25T16:50:50.706124"
   },
   {
     "transaction_id": "RZ_TXN_10057",
@@ -738,7 +738,7 @@
     "decision_reason": "technical_failure",
     "expected_recovery": 1519,
     "simulated_recovered_amount": 1519,
-    "timestamp": "2026-08-23T09:38:52.616809"
+    "timestamp": "2026-08-25T16:50:50.706127"
   },
   {
     "transaction_id": "RZ_TXN_10058",
@@ -751,7 +751,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616813"
+    "timestamp": "2026-08-25T16:50:50.706131"
   },
   {
     "transaction_id": "RZ_TXN_10059",
@@ -764,7 +764,7 @@
     "decision_reason": "high_value_low_confidence",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616816"
+    "timestamp": "2026-08-25T16:50:50.706137"
   },
   {
     "transaction_id": "RZ_TXN_10060",
@@ -777,7 +777,7 @@
     "decision_reason": "insufficient_funds",
     "expected_recovery": 619,
     "simulated_recovered_amount": 619,
-    "timestamp": "2026-08-23T09:38:52.616822"
+    "timestamp": "2026-08-25T16:50:50.706143"
   },
   {
     "transaction_id": "RZ_TXN_10061",
@@ -790,7 +790,7 @@
     "decision_reason": "temporary_bank_failure",
     "expected_recovery": 8928,
     "simulated_recovered_amount": 8928,
-    "timestamp": "2026-08-23T09:38:52.616826"
+    "timestamp": "2026-08-25T16:50:50.706149"
   },
   {
     "transaction_id": "RZ_TXN_10062",
@@ -803,7 +803,7 @@
     "decision_reason": "subscription_failure",
     "expected_recovery": 4400,
     "simulated_recovered_amount": 4400,
-    "timestamp": "2026-08-23T09:38:52.616829"
+    "timestamp": "2026-08-25T16:50:50.706153"
   },
   {
     "transaction_id": "RZ_TXN_10063",
@@ -816,7 +816,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616832"
+    "timestamp": "2026-08-25T16:50:50.706156"
   },
   {
     "transaction_id": "RZ_TXN_10064",
@@ -829,7 +829,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616835"
+    "timestamp": "2026-08-25T16:50:50.706159"
   },
   {
     "transaction_id": "RZ_TXN_10065",
@@ -842,7 +842,7 @@
     "decision_reason": "insufficient_funds",
     "expected_recovery": 3099,
     "simulated_recovered_amount": 3099,
-    "timestamp": "2026-08-23T09:38:52.616839"
+    "timestamp": "2026-08-25T16:50:50.706163"
   },
   {
     "transaction_id": "RZ_TXN_10066",
@@ -855,7 +855,7 @@
     "decision_reason": "insufficient_funds",
     "expected_recovery": 929,
     "simulated_recovered_amount": 929,
-    "timestamp": "2026-08-23T09:38:52.616844"
+    "timestamp": "2026-08-25T16:50:50.706168"
   },
   {
     "transaction_id": "RZ_TXN_10067",
@@ -868,7 +868,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616847"
+    "timestamp": "2026-08-25T16:50:50.706171"
   },
   {
     "transaction_id": "RZ_TXN_10068",
@@ -881,7 +881,7 @@
     "decision_reason": "subscription_failure",
     "expected_recovery": 352,
     "simulated_recovered_amount": 352,
-    "timestamp": "2026-08-23T09:38:52.616850"
+    "timestamp": "2026-08-25T16:50:50.706175"
   },
   {
     "transaction_id": "RZ_TXN_10069",
@@ -894,7 +894,7 @@
     "decision_reason": "insufficient_funds",
     "expected_recovery": 2479,
     "simulated_recovered_amount": 2479,
-    "timestamp": "2026-08-23T09:38:52.616854"
+    "timestamp": "2026-08-25T16:50:50.706179"
   },
   {
     "transaction_id": "RZ_TXN_10070",
@@ -907,7 +907,7 @@
     "decision_reason": "temporary_bank_failure",
     "expected_recovery": 7199,
     "simulated_recovered_amount": 7199,
-    "timestamp": "2026-08-23T09:38:52.616860"
+    "timestamp": "2026-08-25T16:50:50.706184"
   },
   {
     "transaction_id": "RZ_TXN_10071",
@@ -920,7 +920,7 @@
     "decision_reason": "card_declined",
     "expected_recovery": 3600,
     "simulated_recovered_amount": 3600,
-    "timestamp": "2026-08-23T09:38:52.616864"
+    "timestamp": "2026-08-25T16:50:50.706189"
   },
   {
     "transaction_id": "RZ_TXN_10072",
@@ -933,7 +933,7 @@
     "decision_reason": "invoice_overdue",
     "expected_recovery": 800,
     "simulated_recovered_amount": 800,
-    "timestamp": "2026-08-23T09:38:52.616868"
+    "timestamp": "2026-08-25T16:50:50.706193"
   },
   {
     "transaction_id": "RZ_TXN_10073",
@@ -946,7 +946,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616871"
+    "timestamp": "2026-08-25T16:50:50.706196"
   },
   {
     "transaction_id": "RZ_TXN_10074",
@@ -959,7 +959,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616875"
+    "timestamp": "2026-08-25T16:50:50.706200"
   },
   {
     "transaction_id": "RZ_TXN_10075",
@@ -972,7 +972,7 @@
     "decision_reason": "checkout_abandonment",
     "expected_recovery": 380,
     "simulated_recovered_amount": 380,
-    "timestamp": "2026-08-23T09:38:52.616882"
+    "timestamp": "2026-08-25T16:50:50.706204"
   },
   {
     "transaction_id": "RZ_TXN_10076",
@@ -985,7 +985,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616886"
+    "timestamp": "2026-08-25T16:50:50.706207"
   },
   {
     "transaction_id": "RZ_TXN_10077",
@@ -998,7 +998,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616889"
+    "timestamp": "2026-08-25T16:50:50.706210"
   },
   {
     "transaction_id": "RZ_TXN_10078",
@@ -1011,7 +1011,7 @@
     "decision_reason": "high_value_low_confidence",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616893"
+    "timestamp": "2026-08-25T16:50:50.706215"
   },
   {
     "transaction_id": "RZ_TXN_10079",
@@ -1024,7 +1024,7 @@
     "decision_reason": "technical_failure",
     "expected_recovery": 1899,
     "simulated_recovered_amount": 1899,
-    "timestamp": "2026-08-23T09:38:52.616897"
+    "timestamp": "2026-08-25T16:50:50.706219"
   },
   {
     "transaction_id": "RZ_TXN_10080",
@@ -1037,7 +1037,7 @@
     "decision_reason": "checkout_abandonment",
     "expected_recovery": 380,
     "simulated_recovered_amount": 380,
-    "timestamp": "2026-08-23T09:38:52.616903"
+    "timestamp": "2026-08-25T16:50:50.706225"
   },
   {
     "transaction_id": "RZ_TXN_10081",
@@ -1050,7 +1050,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616907"
+    "timestamp": "2026-08-25T16:50:50.706228"
   },
   {
     "transaction_id": "RZ_TXN_10082",
@@ -1063,7 +1063,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616910"
+    "timestamp": "2026-08-25T16:50:50.706231"
   },
   {
     "transaction_id": "RZ_TXN_10083",
@@ -1076,7 +1076,7 @@
     "decision_reason": "technical_failure",
     "expected_recovery": 607,
     "simulated_recovered_amount": 607,
-    "timestamp": "2026-08-23T09:38:52.616915"
+    "timestamp": "2026-08-25T16:50:50.706235"
   },
   {
     "transaction_id": "RZ_TXN_10084",
@@ -1089,7 +1089,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616918"
+    "timestamp": "2026-08-25T16:50:50.706239"
   },
   {
     "transaction_id": "RZ_TXN_10085",
@@ -1102,7 +1102,7 @@
     "decision_reason": "card_declined",
     "expected_recovery": 3600,
     "simulated_recovered_amount": 3600,
-    "timestamp": "2026-08-23T09:38:52.616922"
+    "timestamp": "2026-08-25T16:50:50.706242"
   },
   {
     "transaction_id": "RZ_TXN_10086",
@@ -1115,7 +1115,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616925"
+    "timestamp": "2026-08-25T16:50:50.706245"
   },
   {
     "transaction_id": "RZ_TXN_10087",
@@ -1128,7 +1128,7 @@
     "decision_reason": "temporary_bank_failure",
     "expected_recovery": 1079,
     "simulated_recovered_amount": 1079,
-    "timestamp": "2026-08-23T09:38:52.616928"
+    "timestamp": "2026-08-25T16:50:50.706249"
   },
   {
     "transaction_id": "RZ_TXN_10088",
@@ -1141,7 +1141,7 @@
     "decision_reason": "technical_failure",
     "expected_recovery": 1519,
     "simulated_recovered_amount": 1519,
-    "timestamp": "2026-08-23T09:38:52.616932"
+    "timestamp": "2026-08-25T16:50:50.706252"
   },
   {
     "transaction_id": "RZ_TXN_10089",
@@ -1154,7 +1154,7 @@
     "decision_reason": "temporary_bank_failure",
     "expected_recovery": 1799,
     "simulated_recovered_amount": 1799,
-    "timestamp": "2026-08-23T09:38:52.616936"
+    "timestamp": "2026-08-25T16:50:50.706257"
   },
   {
     "transaction_id": "RZ_TXN_10090",
@@ -1167,7 +1167,7 @@
     "decision_reason": "temporary_bank_failure",
     "expected_recovery": 719,
     "simulated_recovered_amount": 719,
-    "timestamp": "2026-08-23T09:38:52.616943"
+    "timestamp": "2026-08-25T16:50:50.706262"
   },
   {
     "transaction_id": "RZ_TXN_10091",
@@ -1180,7 +1180,7 @@
     "decision_reason": "card_declined",
     "expected_recovery": 1920,
     "simulated_recovered_amount": 1920,
-    "timestamp": "2026-08-23T09:38:52.616947"
+    "timestamp": "2026-08-25T16:50:50.706267"
   },
   {
     "transaction_id": "RZ_TXN_10092",
@@ -1193,7 +1193,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616950"
+    "timestamp": "2026-08-25T16:50:50.706270"
   },
   {
     "transaction_id": "RZ_TXN_10093",
@@ -1206,7 +1206,7 @@
     "decision_reason": "temporary_bank_failure",
     "expected_recovery": 2879,
     "simulated_recovered_amount": 2879,
-    "timestamp": "2026-08-23T09:38:52.616954"
+    "timestamp": "2026-08-25T16:50:50.706274"
   },
   {
     "transaction_id": "RZ_TXN_10094",
@@ -1219,7 +1219,7 @@
     "decision_reason": "card_declined",
     "expected_recovery": 240,
     "simulated_recovered_amount": 240,
-    "timestamp": "2026-08-23T09:38:52.616959"
+    "timestamp": "2026-08-25T16:50:50.706278"
   },
   {
     "transaction_id": "RZ_TXN_10095",
@@ -1232,7 +1232,7 @@
     "decision_reason": "insufficient_funds",
     "expected_recovery": 3099,
     "simulated_recovered_amount": 3099,
-    "timestamp": "2026-08-23T09:38:52.616963"
+    "timestamp": "2026-08-25T16:50:50.706282"
   },
   {
     "transaction_id": "RZ_TXN_10096",
@@ -1245,7 +1245,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616966"
+    "timestamp": "2026-08-25T16:50:50.706285"
   },
   {
     "transaction_id": "RZ_TXN_10097",
@@ -1258,7 +1258,7 @@
     "decision_reason": "insufficient_funds",
     "expected_recovery": 2479,
     "simulated_recovered_amount": 2479,
-    "timestamp": "2026-08-23T09:38:52.616970"
+    "timestamp": "2026-08-25T16:50:50.706289"
   },
   {
     "transaction_id": "RZ_TXN_10098",
@@ -1271,7 +1271,7 @@
     "decision_reason": "retry_limit_reached",
     "expected_recovery": 0,
     "simulated_recovered_amount": 0,
-    "timestamp": "2026-08-23T09:38:52.616974"
+    "timestamp": "2026-08-25T16:50:50.706292"
   },
   {
     "transaction_id": "RZ_TXN_10099",
@@ -1284,7 +1284,7 @@
     "decision_reason": "insufficient_funds",
     "expected_recovery": 4649,
     "simulated_recovered_amount": 4649,
-    "timestamp": "2026-08-23T09:38:52.616977"
+    "timestamp": "2026-08-25T16:50:50.706296"
   },
   {
     "transaction_id": "RZ_TXN_10100",
@@ -1297,6 +1297,6 @@
     "decision_reason": "invoice_overdue",
     "expected_recovery": 160,
     "simulated_recovered_amount": 160,
-    "timestamp": "2026-08-23T09:38:52.616984"
+    "timestamp": "2026-08-25T16:50:50.706304"
   }
 ]
