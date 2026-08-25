@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useMemo, useState } from "react";
 
@@ -222,15 +222,21 @@ export default function Home() {
     );
 
     const recovered = transactions.filter(
-      (tx) => getStatus(tx) === "Recovered"
+      (tx) => getDecision(tx).toLowerCase() === "recover"
     ).length;
 
     const stopped = transactions.filter(
-      (tx) => getStatus(tx) === "Stopped"
+      (tx) => getDecision(tx).toLowerCase() === "stop"
     ).length;
 
     const escalated = transactions.filter(
-      (tx) => getStatus(tx) === "Escalated"
+      (tx) => getDecision(tx).toLowerCase() === "escalate"
+    ).length;
+
+    const approvalRequired = transactions.filter(
+      (tx) =>
+        getDecision(tx).toLowerCase() ===
+        "approval_required"
     ).length;
 
     return {
@@ -241,10 +247,14 @@ export default function Home() {
       recovered,
       stopped,
       escalated,
+      approvalRequired,
     };
   }, [transactions, summary]);
 
-  const systemOnline = !loading && !error && transactions.length > 0;
+  const systemOnline =
+    !loading &&
+    !error &&
+    transactions.length > 0;
 
   return (
     <main
@@ -263,8 +273,6 @@ export default function Home() {
           margin: "0 auto",
         }}
       >
-        {/* HEADER */}
-
         <header
           style={{
             paddingBottom: "32px",
@@ -354,6 +362,7 @@ export default function Home() {
                       : "none",
                   }}
                 />
+
                 {systemOnline
                   ? "SYSTEM ONLINE"
                   : loading
@@ -375,8 +384,6 @@ export default function Home() {
           </div>
         </header>
 
-        {/* ERROR */}
-
         {error && (
           <div
             style={{
@@ -388,7 +395,9 @@ export default function Home() {
               color: "#fca5a5",
             }}
           >
-            <strong>Failed to load recovery data</strong>
+            <strong>
+              Failed to load recovery data
+            </strong>
 
             <div
               style={{
@@ -400,8 +409,6 @@ export default function Home() {
             </div>
           </div>
         )}
-
-        {/* HERO */}
 
         <section
           style={{
@@ -449,8 +456,6 @@ export default function Home() {
             in an audit trail.
           </p>
         </section>
-
-        {/* KPI CARDS */}
 
         <section
           style={{
@@ -502,9 +507,11 @@ export default function Home() {
           />
         </section>
 
-        {/* DECISIONS */}
-
-        <section style={{ marginBottom: "38px" }}>
+        <section
+          style={{
+            marginBottom: "38px",
+          }}
+        >
           <SectionHeader
             title="Recovery Decisions"
             subtitle="Bounded agent outcomes across the recovery pipeline."
@@ -538,10 +545,15 @@ export default function Home() {
               description="Human review required"
               status="Escalated"
             />
+
+            <DecisionCard
+              label="Approval Required"
+              value={stats.approvalRequired}
+              description="High-value recovery requires approval"
+              status="Approval Required"
+            />
           </div>
         </section>
-
-        {/* AUDIT TRAIL */}
 
         <section>
           <div
@@ -684,8 +696,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* RECOVERY LOOP */}
-
         <section
           style={{
             marginTop: "52px",
@@ -737,8 +747,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* FOOTER */}
-
         <footer
           style={{
             borderTop: "1px solid #1f2937",
@@ -752,17 +760,18 @@ export default function Home() {
             flexWrap: "wrap",
           }}
         >
-          <span>RESURGE AI • Revenue Recovery Intelligence</span>
-          <span>Synthetic Test Mode • Audit Enabled</span>
+          <span>
+            RESURGE AI • Revenue Recovery Intelligence
+          </span>
+
+          <span>
+            Synthetic Test Mode • Audit Enabled
+          </span>
         </footer>
       </div>
     </main>
   );
 }
-
-/* ---------------------------------- */
-/* UI COMPONENTS                      */
-/* ---------------------------------- */
 
 function SectionHeader({
   title,
@@ -1003,6 +1012,12 @@ function StatusBadge({
       background: "#2e2105",
       color: "#fde68a",
       border: "1px solid #854d0e",
+    },
+
+    "Approval Required": {
+      background: "#1e1b4b",
+      color: "#c4b5fd",
+      border: "1px solid #6d28d9",
     },
   };
 
